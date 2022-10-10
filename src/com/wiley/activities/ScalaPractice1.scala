@@ -1,4 +1,4 @@
-package com.wiley.scalacohort.training
+package com.wiley.activities
 
 trait PowerUp{
   def powerUp()
