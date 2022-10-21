@@ -82,7 +82,7 @@ class Wall{
 }
 
 object CharacterProject extends App {
-/*  println("Input Hero health: ")
+  println("Input Hero health: ")
   var hHealth = scala.io.StdIn.readInt()
 
   println("Hero Stats:")
@@ -123,7 +123,7 @@ object CharacterProject extends App {
     v.Stats(25)
     println()
     count += 1
-  }*/
+  }
 
   var w = new Wall
   println("Would you like to input you wall health or keep them random: random or input")
@@ -140,7 +140,7 @@ object CharacterProject extends App {
   }
 
 
-  //println(Source.fromFile("C:\\Users\\isaam\\OneDrive\\School Stuff\\WileyEdge\\Ending.txt"))
+  println(Source.fromFile("C:\\Users\\isaam\\OneDrive\\School Stuff\\WileyEdge\\Ending.txt").mkString)
 
 
 
